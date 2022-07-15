@@ -25,7 +25,7 @@ async def start(client, message):
 
 🌐لأنشاء الروابط في المجموعات,اضفني لمجموعه خارقه اي عامه وارسل الامر /tl ردا علي ملف وسائط صالح.
 🏠 | [Home](https://t.me/Big1_Bang1)
-🏠 | [Dev](@G5_F1)            
+🏠 | [Dev](https://t.me/G5_F1)            
 """
     await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
     
