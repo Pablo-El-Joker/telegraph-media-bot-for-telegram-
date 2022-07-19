@@ -28,9 +28,7 @@ async def start(client, message):
 🏠 | [قناة البوت الاولي](https://t.me/Big1_Bang1)
 🏠 | [قناة البوت الثانية](https://t.me/B_O_S_T_A_T_0)
 🏠 | [قناة البوت الثالثه](https://t.me/A_G_R_0)
-🏠 | [قناة البوت الرابعه](https://t.me/UUBU0)
-😍 | [مطور البوت](https://t.me/O1BOO)
-🥳 | [مطور السورس](https://t.me/G5_F1)            
+🥳 | [المطور ](https://t.me/G5_F1)            
 """
     await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
     
