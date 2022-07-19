@@ -24,8 +24,10 @@ async def start(client, message):
 ♻️انواع الملفات الصالحه هي:- 'jpeg', 'jpg', 'png', 'mp4' and 'gif'.
 
 🌐لأنشاء الروابط في المجموعات,اضفني لمجموعه خارقه اي عامه وارسل الامر /tl ردا علي ملف وسائط صالح.
-🏠 | [Home](https://t.me/Big1_Bang1)
-🏠 | [Dev](https://t.me/G5_F1)            
+🏠 | [قناة البوت الاولي](https://t.me/Big1_Bang1)
+🏠 | [قناة البوت الثانية](https://t.me/B_O_S_T_A_T_0)
+🏠 | [قناة البوت الثالثه](https://t.me/A_G_R_0)
+🥳 | [المطور](https://t.me/G5_F1)            
 """
     await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
     
@@ -35,7 +37,7 @@ async def get_link_private(client, message):
     try:
         text = await message.reply("يتم المعالجه...")
         async def progress(current, total):
-            await text.edit_text(f"📥 احمد بدير بيحبك ياض {current * 100 / total:.1f}%")
+            await text.edit_text(f"📥 يتم التحميل {current * 100 / total:.1f}%")
         try:
             location = f"./media/private/"
             local_path = await message.download(location, progress=progress)
@@ -55,7 +57,7 @@ async def get_link_group(client, message):
     try:
         text = await message.reply("يتم المعالجه...")
         async def progress(current, total):
-            await text.edit_text(f"احمد بدير بيحبك ياض {current * 100 / total:.1f}%")
+            await text.edit_text(f"📥 يتم التحميل {current * 100 / total:.1f}%")
         try:
             location = f"./media/group/"
             local_path = await message.reply_to_message.download(location, progress=progress)
